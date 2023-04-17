@@ -55,4 +55,10 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(5f);
         BombLaunchReady = !BombLaunchReady;
     }
+
+    public void IsDying()
+    {
+        Debug.Log("Jui mort");
+        Destroy(gameObject);
+    }
 }
