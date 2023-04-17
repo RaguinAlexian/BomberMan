@@ -15,6 +15,10 @@ public class Manager : MonoBehaviour
             {
                 Destroy(BlockList[z].gameObject);
             }
+            else
+            {
+                BlockList[z].GetComponent<LootingBox>().started = true;
+            }
         }
     }        
 }

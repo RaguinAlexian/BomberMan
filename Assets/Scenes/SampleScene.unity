@@ -11043,7 +11043,7 @@ MonoBehaviour:
   CubeLeft: 113
   BombaKey: 32
   BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
-  PlayerPower: 2
+  PlayerPower: 1
 --- !u!54 &897406155
 Rigidbody:
   m_ObjectHideFlags: 0

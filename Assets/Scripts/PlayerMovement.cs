@@ -61,4 +61,15 @@ public class PlayerMovement : MonoBehaviour
         Debug.Log("Jui mort");
         Destroy(gameObject);
     }
+
+    public void Invincibility()
+    {
+        StartCoroutine(WaitForEnd());
+    }
+
+    IEnumerator WaitForEnd()
+    {
+        yield return new WaitForSeconds(6f);
+        gameObject.tag = "Player";
+    }
 }
