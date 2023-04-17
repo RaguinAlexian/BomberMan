@@ -22,9 +22,9 @@ public class BombScript : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         GameObject NewExplosion = Instantiate(ExplosionPrefab, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), Quaternion.identity);
-        NewExplosion.transform.localScale = new Vector3(1, Player.PlayerPower,1);
+        NewExplosion.transform.localScale = new Vector3(1, 3*Player.PlayerPower,1);
         GameObject NewExplosionBis = Instantiate(ExplosionPrefab, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z), Quaternion.Euler(0, 0, 90));
-        NewExplosionBis.transform.localScale = new Vector3(1, Player.PlayerPower, 1);
+        NewExplosionBis.transform.localScale = new Vector3(1, 3*Player.PlayerPower, 1);
         Destroy(gameObject);
     }
 }

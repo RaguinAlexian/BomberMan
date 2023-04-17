@@ -10,12 +10,5 @@ public class LootingBox : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (!collision.transform.CompareTag("Finish"))
-        {
-            Destroy(gameObject);
-        }
-    }
-    // Update is called once per frame
+    
 }
