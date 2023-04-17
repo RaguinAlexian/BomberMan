@@ -27,4 +27,10 @@ public class BombScript : MonoBehaviour
         NewExplosionBis.transform.localScale = new Vector3(1, 2*Player.PlayerPower, 1);
         Destroy(gameObject);
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        Debug.Log("Coucou");
+        other.gameObject.GetComponent<SphereCollider>().isTrigger = false;
+    }
 }
