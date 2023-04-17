@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public Transform MyX;
     public bool BombLaunchReady;
+    public bool colorSwitch;
     public float speed = 0.1f;
     public KeyCode CubeForward;
     public KeyCode CubeBackward;
@@ -13,7 +14,11 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode CubeLeft;
     public KeyCode BombaKey;
     public GameObject BombPrefab;
-    public int PlayerPower=1;
+    public int PlayerPower = 1;
+    public float PlayerCooldown = 3f;
+    [SerializeField]
+    private List<Material> ColorList;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -52,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
     {
         GameObject NewBomb = Instantiate(BombPrefab, currentPos, Quaternion.identity);
         NewBomb.GetComponent<BombScript>().Player = this;
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(PlayerCooldown);
         BombLaunchReady = !BombLaunchReady;
     }
 
@@ -65,11 +70,26 @@ public class PlayerMovement : MonoBehaviour
     public void Invincibility()
     {
         StartCoroutine(WaitForEnd());
+        StartCoroutine(RandomColor());
     }
 
     IEnumerator WaitForEnd()
     {
         yield return new WaitForSeconds(6f);
         gameObject.tag = "Player";
+        colorSwitch = false;
+        gameObject.GetComponent<Renderer>().material.color = Color.white;
+    }
+
+    IEnumerator RandomColor()
+    {
+        colorSwitch = true;
+        while (colorSwitch)
+        {
+            var x = Random.Range(0, ColorList.Count);
+            gameObject.GetComponent<Renderer>().material = ColorList[x];
+            yield return new WaitForSeconds(0.15f);
+        }
+        yield return new WaitForSeconds(1f);
     }
 }

@@ -10977,7 +10977,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6d777415761e0784fa000b344ef7c941, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11036,6 +11036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MyX: {fileID: 897406153}
   BombLaunchReady: 1
+  colorSwitch: 0
   speed: 0.1
   CubeForward: 122
   CubeBackward: 115
@@ -11044,6 +11045,14 @@ MonoBehaviour:
   BombaKey: 32
   BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
   PlayerPower: 1
+  PlayerCooldown: 3
+  ColorList:
+  - {fileID: 2100000, guid: dec5ffb6971954a47bd6439af6ce4ced, type: 2}
+  - {fileID: 2100000, guid: a8b40317073d1d04cabbd02ddba10663, type: 2}
+  - {fileID: 2100000, guid: 803be8a8ca30f8d4bb09cc8dcde067a1, type: 2}
+  - {fileID: 2100000, guid: ba72328baaa381148a5b245de3f215ed, type: 2}
+  - {fileID: 2100000, guid: 1e011fc0177edf54cb0c4e53aae8cd5d, type: 2}
+  - {fileID: 2100000, guid: 055a4c14e93b538429a4593f34d77e1d, type: 2}
 --- !u!54 &897406155
 Rigidbody:
   m_ObjectHideFlags: 0
