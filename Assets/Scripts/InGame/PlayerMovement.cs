@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void IsDying()
     {
-        Debug.Log("Jui mort");
+        Debug.Log(gameObject.name + " a perdu");
         Destroy(gameObject);
     }
 
