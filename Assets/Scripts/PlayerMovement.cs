@@ -24,13 +24,12 @@ public class PlayerMovement : MonoBehaviour
     
     [SerializeField]
     private List<Material> ColorList;
-    [SerializeField]
     private Material DefaultColor;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        DefaultColor = gameObject.GetComponent<Renderer>().material;
     }
 
     // Update is called once per frame
