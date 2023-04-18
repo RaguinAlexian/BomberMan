@@ -18,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
     public float PlayerCooldown = 3f;
     [SerializeField]
     private List<Material> ColorList;
+    [SerializeField]
+    private Material DefaultColor;
 
     // Start is called before the first frame update
     void Start()
@@ -78,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(6f);
         gameObject.tag = "Player";
         colorSwitch = false;
-        gameObject.GetComponent<Renderer>().material.color = Color.white;
+        gameObject.GetComponent<Renderer>().material = DefaultColor;
     }
 
     IEnumerator RandomColor()

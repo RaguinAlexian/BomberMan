@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ExplosionBlow : MonoBehaviour
 {
+
     void Start()
     {
         StartCoroutine(WaitUntilFade());
@@ -18,6 +19,10 @@ public class ExplosionBlow : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.GetComponent<PlayerMovement>().IsDying();
+        }
+        if (other.CompareTag("Bomb"))
+        {
+            other.GetComponent<BombScript>().Boom();
         }
     }
 

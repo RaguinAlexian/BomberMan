@@ -11053,6 +11053,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: ba72328baaa381148a5b245de3f215ed, type: 2}
   - {fileID: 2100000, guid: 1e011fc0177edf54cb0c4e53aae8cd5d, type: 2}
   - {fileID: 2100000, guid: 055a4c14e93b538429a4593f34d77e1d, type: 2}
+  DefaultColor: {fileID: 2100000, guid: 6d777415761e0784fa000b344ef7c941, type: 2}
 --- !u!54 &897406155
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13142,6 +13143,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: ba72328baaa381148a5b245de3f215ed, type: 2}
   - {fileID: 2100000, guid: 1e011fc0177edf54cb0c4e53aae8cd5d, type: 2}
   - {fileID: 2100000, guid: 055a4c14e93b538429a4593f34d77e1d, type: 2}
+  DefaultColor: {fileID: 2100000, guid: de197a91c3a45c04bb41f3f21484881d, type: 2}
 --- !u!65 &1029547875
 BoxCollider:
   m_ObjectHideFlags: 0
