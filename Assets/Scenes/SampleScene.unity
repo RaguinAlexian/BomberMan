@@ -6657,7 +6657,9 @@ MonoBehaviour:
   - {fileID: 1335926514}
   - {fileID: 865847570}
   - {fileID: 1347953898}
-  Player: {fileID: 897406154}
+  PlayerList:
+  - {fileID: 897406149}
+  - {fileID: 1029547872}
   count: 0
 --- !u!4 &538366144
 Transform:
@@ -13132,11 +13134,11 @@ MonoBehaviour:
   speed: 0.1
   PlayerCooldown: 3
   PlayerPower: 1
-  CubeUp: 273
-  CubeDown: 274
-  CubeRight: 275
-  CubeLeft: 276
-  BombaKey: 256
+  CubeUp: 0
+  CubeDown: 0
+  CubeRight: 0
+  CubeLeft: 0
+  BombaKey: 0
   BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
   ColorList:
   - {fileID: 2100000, guid: dec5ffb6971954a47bd6439af6ce4ced, type: 2}
