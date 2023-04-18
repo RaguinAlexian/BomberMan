@@ -21,7 +21,8 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode BombaKey;
     
     public GameObject BombPrefab;
-    
+
+    public Manager Manager;
     [SerializeField]
     private List<Material> ColorList;
     private Material DefaultColor;
@@ -35,29 +36,32 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(CubeUp))
+        if (Manager.GameOn)
         {
-            MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * speed;
-        }
-        else if (Input.GetKey(CubeDown))
-        {
-            MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * speed * -1;
-        }
-        else if (Input.GetKey(CubeLeft))
-        {
-            MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * -1 * speed;
-        }
-        else if (Input.GetKey(CubeRight))
-        {
-            MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * speed;
-        }
-        if (Input.GetKey(BombaKey) && BombLaunchReady)
-        {
-            BombLaunchReady = !BombLaunchReady;
-            int currentX = (int)Mathf.Round(MyPlayerTransform.position.x);
-            int currentY = (int)Mathf.Round(MyPlayerTransform.position.y);
-            var currentPos = new Vector3(currentX, currentY, MyPlayerTransform.position.z);
-            StartCoroutine(NukeLaunch(currentPos));
+            if (Input.GetKey(CubeUp))
+            {
+                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * speed;
+            }
+            else if (Input.GetKey(CubeDown))
+            {
+                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * speed * -1;
+            }
+            else if (Input.GetKey(CubeLeft))
+            {
+                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * -1 * speed;
+            }
+            else if (Input.GetKey(CubeRight))
+            {
+                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * speed;
+            }
+            if (Input.GetKey(BombaKey) && BombLaunchReady)
+            {
+                BombLaunchReady = !BombLaunchReady;
+                int currentX = (int)Mathf.Round(MyPlayerTransform.position.x);
+                int currentY = (int)Mathf.Round(MyPlayerTransform.position.y);
+                var currentPos = new Vector3(currentX, currentY, MyPlayerTransform.position.z);
+                StartCoroutine(NukeLaunch(currentPos));
+            }
         }
     }
     IEnumerator NukeLaunch(Vector3 currentPos)
@@ -70,8 +74,15 @@ public class PlayerMovement : MonoBehaviour
 
     public void IsDying()
     {
+        for(int i = 0; i < Manager.PlayerList.Count; i++)
+        {
+            if(gameObject.name == Manager.PlayerList[i].name)
+            {
+                Manager.PlayerList[i].SetActive(false);
+            }
+        }
         Debug.Log(gameObject.name + " a perdu");
-        Destroy(gameObject);
+        Manager.PlayerAlive--;
     }
 
     public void Invincibility()

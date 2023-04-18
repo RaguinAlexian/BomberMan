@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 7847430}
   - component: {fileID: 7847429}
   m_Layer: 0
-  m_Name: TempoPlayer (3)
+  m_Name: Michelle
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,6 +184,7 @@ MonoBehaviour:
   CubeLeft: 0
   BombaKey: 0
   BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
+  Manager: {fileID: 538366143}
   ColorList:
   - {fileID: 2100000, guid: dec5ffb6971954a47bd6439af6ce4ced, type: 2}
   - {fileID: 2100000, guid: a8b40317073d1d04cabbd02ddba10663, type: 2}
@@ -4096,7 +4097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d683819d9aa82e49af93765e6996b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Manager: {fileID: 0}
+  Manager: {fileID: 538366143}
   _tempoNbPlayer: 0
   Menu: 1
   MyButton: {fileID: 345324418}
@@ -6328,7 +6329,7 @@ MonoBehaviour:
   Manager: {fileID: 538366143}
   _tempoNbPlayer: 3
   Menu: 0
-  MyButton: {fileID: 0}
+  MyButton: {fileID: 486823757}
   ButtonList:
   - {fileID: 699550234}
   - {fileID: 1863678991}
@@ -7421,13 +7422,17 @@ MonoBehaviour:
   - {fileID: 1335926514}
   - {fileID: 865847570}
   - {fileID: 1347953898}
+  AllBlock: []
   PlayerList:
   - {fileID: 897406149}
   - {fileID: 1029547872}
   - {fileID: 804281031}
   - {fileID: 7847428}
+  PlayerPosition: []
+  TempoBlockPrefab: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
   GameOn: 0
-  _nbPlayer: 0
+  NbPlayer: 0
+  PlayerAlive: 0
   MyButton: {fileID: 832634540}
   Text: {fileID: 345324420}
 --- !u!4 &538366144
@@ -8547,7 +8552,7 @@ MonoBehaviour:
   Manager: {fileID: 538366143}
   _tempoNbPlayer: 4
   Menu: 0
-  MyButton: {fileID: 0}
+  MyButton: {fileID: 643046449}
   ButtonList:
   - {fileID: 699550234}
   - {fileID: 1863678991}
@@ -9960,7 +9965,7 @@ MonoBehaviour:
   Manager: {fileID: 538366143}
   _tempoNbPlayer: 1
   Menu: 0
-  MyButton: {fileID: 0}
+  MyButton: {fileID: 699550234}
   ButtonList:
   - {fileID: 699550234}
   - {fileID: 1863678991}
@@ -11117,7 +11122,7 @@ GameObject:
   - component: {fileID: 804281033}
   - component: {fileID: 804281032}
   m_Layer: 0
-  m_Name: TempoPlayer (2)
+  m_Name: Bertrand
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11163,6 +11168,7 @@ MonoBehaviour:
   CubeLeft: 0
   BombaKey: 0
   BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
+  Manager: {fileID: 538366143}
   ColorList:
   - {fileID: 2100000, guid: dec5ffb6971954a47bd6439af6ce4ced, type: 2}
   - {fileID: 2100000, guid: a8b40317073d1d04cabbd02ddba10663, type: 2}
@@ -12321,7 +12327,7 @@ GameObject:
   - component: {fileID: 897406154}
   - component: {fileID: 897406155}
   m_Layer: 0
-  m_Name: TempoPlayer
+  m_Name: Nathalie
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12429,6 +12435,7 @@ MonoBehaviour:
   CubeLeft: 0
   BombaKey: 0
   BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
+  Manager: {fileID: 538366143}
   ColorList:
   - {fileID: 2100000, guid: dec5ffb6971954a47bd6439af6ce4ced, type: 2}
   - {fileID: 2100000, guid: a8b40317073d1d04cabbd02ddba10663, type: 2}
@@ -14472,7 +14479,7 @@ GameObject:
   - component: {fileID: 1029547874}
   - component: {fileID: 1029547873}
   m_Layer: 0
-  m_Name: TempoPlayer (1)
+  m_Name: "Jer\xF4me"
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14518,6 +14525,7 @@ MonoBehaviour:
   CubeLeft: 0
   BombaKey: 0
   BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
+  Manager: {fileID: 538366143}
   ColorList:
   - {fileID: 2100000, guid: dec5ffb6971954a47bd6439af6ce4ced, type: 2}
   - {fileID: 2100000, guid: a8b40317073d1d04cabbd02ddba10663, type: 2}
@@ -21445,6 +21453,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3565757585866423012, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (4)
@@ -26823,7 +26835,7 @@ MonoBehaviour:
   Manager: {fileID: 538366143}
   _tempoNbPlayer: 2
   Menu: 0
-  MyButton: {fileID: 0}
+  MyButton: {fileID: 1863678991}
   ButtonList:
   - {fileID: 699550234}
   - {fileID: 1863678991}

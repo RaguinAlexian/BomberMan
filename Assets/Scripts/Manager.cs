@@ -6,13 +6,18 @@ using TMPro;
 public class Manager : MonoBehaviour
 {
     public List<GameObject> BlockList;
+    public List<Vector3> AllBlock;
     public List<GameObject> PlayerList;
+    public List<Vector3> PlayerPosition;
+
+    public GameObject TempoBlockPrefab;
 
     public bool GameOn;
     
     private int _count;
     private int _currentPlayer;
-    public int _nbPlayer;
+    public int NbPlayer;
+    public int PlayerAlive;
 
     private bool _allGood;
 
@@ -21,19 +26,52 @@ public class Manager : MonoBehaviour
     public ButtonScript MyButton;
     public ButtonScript Text;
     // Start is called before the first frame update
+    void Start()
+    {
+        var tempPosition = new Vector3(0,0,0);
+        for (int x = 0; x < BlockList.Count; x++)
+        {
+            tempPosition = new Vector3(BlockList[x].transform.position.x, BlockList[x].transform.position.y, BlockList[x].transform.position.z);
+            AllBlock.Add(tempPosition);
+        }
+        Instantiate(TempoBlockPrefab, AllBlock[1], Quaternion.identity);
+        for(int y = 0; y < PlayerList.Count; y++)
+        {
+            var tempPlayerPosition = new Vector3(PlayerList[y].transform.position.x, PlayerList[y].transform.position.y, PlayerList[y].transform.position.z);
+            PlayerPosition.Add(tempPlayerPosition);
+        }
+    }
+
     public void ResetMap()
     {
+        NbPlayer = PlayerList.Count;
+        for (int x = 0; x < BlockList.Count; x++)
+        {
+            var tempGameObject = BlockList[x];
+            BlockList.RemoveAt(x);
+            Debug.Log(BlockList[x]);
+            Destroy(tempGameObject);
+        }
+        for (int y = 0; y < AllBlock.Count; y++)
+        {
+            BlockList.Add(Instantiate(TempoBlockPrefab, AllBlock[y], Quaternion.identity));
+        }
         for (int z = 0; z < BlockList.Count; z++)
         {
             var x = Random.Range(1, 6);
             if (x <= 2)
             {
-                Destroy(BlockList[z].gameObject);
+                Destroy(BlockList[z]);
             }
             else
             {
                 BlockList[z].GetComponent<LootingBox>().started = true;
             }
+        }
+        for (int i = 0; i < PlayerList.Count; i++)
+        {
+            PlayerList[i].SetActive(true);
+            PlayerList[i].transform.position = PlayerPosition[i];
         }
     }
 
@@ -104,7 +142,7 @@ public class Manager : MonoBehaviour
                 }
                 else
                 {
-                    if (!GameOn)
+                    if (_currentPlayer == PlayerList.Count && !GameOn)
                     {
                         Text.gameObject.SetActive(false);
                         MyButton.MyButton.SetActive(true);
@@ -113,13 +151,13 @@ public class Manager : MonoBehaviour
             }
             else
             {
-                if (_nbPlayer <= 0 || _nbPlayer > 4)
+                if (NbPlayer <= 0 || NbPlayer > 4)
                 {
                     Text.GetComponent<TextMeshProUGUI>().text = "Nombre Joueur ?";
                 }
                 else
                 {
-                    for (int i = 1; i <= 4 - _nbPlayer; i++)
+                    for (int i = 1; i <= 4 - NbPlayer; i++)
                     {
                         var tempPlayer = PlayerList[4 - i];
                         PlayerList.Remove(PlayerList[4 - i]);
@@ -131,10 +169,26 @@ public class Manager : MonoBehaviour
         }
         if (GameOn)
         {
-            if(PlayerList.Count <= 0)
+            if(PlayerAlive <= 0 && _currentPlayer != 1)
             {
                 Text.gameObject.SetActive(true);
-                Text.GetComponent<TextMeshProUGUI>().text = "Nombre Joueur ?";
+                Text.GetComponent<TextMeshProUGUI>().text = "Personne n'a gagné";
+                GameOn = false;
+                StartCoroutine(WaitForEnding());
+            }
+            if(PlayerAlive == 1 && _currentPlayer != 1)
+            {
+                Text.gameObject.SetActive(true);
+                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[0].name + ", a vaincu !";
+                GameOn = false;
+                StartCoroutine(WaitForEnding());
+            }
+            if (PlayerAlive <= 0 && _currentPlayer == 1)
+            {
+                Text.gameObject.SetActive(true);
+                Text.GetComponent<TextMeshProUGUI>().text = "Vous avez perdu";
+                GameOn = false;
+                StartCoroutine(WaitForEnding());
             }
         }
     }
@@ -149,5 +203,17 @@ public class Manager : MonoBehaviour
                 TempoKey = e.keyCode;
             }
         }
+    }
+
+    private void Ending()
+    {
+        Text.gameObject.SetActive(false);
+        MyButton.MyButton.SetActive(true);
+    }
+
+    IEnumerator WaitForEnding()
+    {
+        yield return new WaitForSeconds(2f);
+        Ending();
     }
 }

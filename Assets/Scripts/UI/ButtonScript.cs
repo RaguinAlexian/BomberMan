@@ -28,8 +28,9 @@ public class ButtonScript : MonoBehaviour
 
     public void ChangeNbPlayer()
     {
-        Manager._nbPlayer = _tempoNbPlayer;
-        for(int i = 0; i < ButtonList.Count;i++)
+        Manager.NbPlayer = _tempoNbPlayer;
+        Manager.PlayerAlive = _tempoNbPlayer;
+        for (int i = 0; i < ButtonList.Count;i++)
         {
             ButtonList[i].gameObject.SetActive(false);
         }
