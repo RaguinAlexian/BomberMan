@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public Transform MyX;
+    public Transform MyPlayerTransform;
+    
     public bool BombLaunchReady;
     public bool colorSwitch;
+    
     public float speed = 0.1f;
-    public KeyCode CubeForward;
-    public KeyCode CubeBackward;
+    public float PlayerCooldown = 3f;
+
+    public int PlayerPower = 1;
+
+    public KeyCode CubeUp;
+    public KeyCode CubeDown;
     public KeyCode CubeRight;
     public KeyCode CubeLeft;
     public KeyCode BombaKey;
+    
     public GameObject BombPrefab;
-    public int PlayerPower = 1;
-    public float PlayerCooldown = 3f;
+    
     [SerializeField]
     private List<Material> ColorList;
     [SerializeField]
@@ -30,28 +36,28 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(CubeForward))
+        if (Input.GetKey(CubeUp))
         {
-            MyX.position = MyX.position + MyX.up * speed;
+            MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * speed;
         }
-        else if (Input.GetKey(CubeBackward))
+        else if (Input.GetKey(CubeDown))
         {
-            MyX.position = MyX.position + MyX.up * speed * -1;
+            MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * speed * -1;
         }
         else if (Input.GetKey(CubeLeft))
         {
-            MyX.position = MyX.position + MyX.right * -1 * speed;
+            MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * -1 * speed;
         }
         else if (Input.GetKey(CubeRight))
         {
-            MyX.position = MyX.position + MyX.right * speed;
+            MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * speed;
         }
         if (Input.GetKey(BombaKey) && BombLaunchReady)
         {
             BombLaunchReady = !BombLaunchReady;
-            int currentX = (int)Mathf.Round(MyX.position.x);
-            int currentY = (int)Mathf.Round(MyX.position.y);
-            var currentPos = new Vector3(currentX, currentY, MyX.position.z);
+            int currentX = (int)Mathf.Round(MyPlayerTransform.position.x);
+            int currentY = (int)Mathf.Round(MyPlayerTransform.position.y);
+            var currentPos = new Vector3(currentX, currentY, MyPlayerTransform.position.z);
             StartCoroutine(NukeLaunch(currentPos));
         }
     }

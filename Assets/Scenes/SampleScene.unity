@@ -6657,6 +6657,8 @@ MonoBehaviour:
   - {fileID: 1335926514}
   - {fileID: 865847570}
   - {fileID: 1347953898}
+  Player: {fileID: 897406154}
+  count: 0
 --- !u!4 &538366144
 Transform:
   m_ObjectHideFlags: 0
@@ -11034,18 +11036,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59c8cf45ccc729d46a6ab4a04d623e55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyX: {fileID: 897406153}
+  MyPlayerTransform: {fileID: 897406153}
   BombLaunchReady: 1
   colorSwitch: 0
   speed: 0.1
-  CubeForward: 122
-  CubeBackward: 115
-  CubeRight: 100
-  CubeLeft: 113
-  BombaKey: 32
-  BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
-  PlayerPower: 1
   PlayerCooldown: 3
+  PlayerPower: 1
+  CubeUp: 0
+  CubeDown: 0
+  CubeRight: 0
+  CubeLeft: 0
+  BombaKey: 0
+  BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
   ColorList:
   - {fileID: 2100000, guid: dec5ffb6971954a47bd6439af6ce4ced, type: 2}
   - {fileID: 2100000, guid: a8b40317073d1d04cabbd02ddba10663, type: 2}
@@ -13124,18 +13126,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59c8cf45ccc729d46a6ab4a04d623e55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MyX: {fileID: 1029547878}
+  MyPlayerTransform: {fileID: 1029547878}
   BombLaunchReady: 1
   colorSwitch: 0
   speed: 0.1
-  CubeForward: 273
-  CubeBackward: 274
+  PlayerCooldown: 3
+  PlayerPower: 1
+  CubeUp: 273
+  CubeDown: 274
   CubeRight: 275
   CubeLeft: 276
   BombaKey: 256
   BombPrefab: {fileID: 5222696130503628065, guid: cb82446da372a874f94071f5ee6f3f00, type: 3}
-  PlayerPower: 1
-  PlayerCooldown: 3
   ColorList:
   - {fileID: 2100000, guid: dec5ffb6971954a47bd6439af6ce4ced, type: 2}
   - {fileID: 2100000, guid: a8b40317073d1d04cabbd02ddba10663, type: 2}
