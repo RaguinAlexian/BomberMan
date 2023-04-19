@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class ExplosionBlow : MonoBehaviour
 {
-    public GameObject Manager;
+    public Manager MyManager;
+    public PlayerMovement NearestPlayer;
+
+    private bool _pityLoot;
 
     //Récupération du GameObject Manager et mise en place du temps d'apparition
     void Start()
     {
         StartCoroutine(WaitUntilFade());
-        Manager = GameObject.Find("GameManager");
+        MyManager = FindObjectOfType<Manager>(); 
     }
 
     //Vérification de ce que touche l'explosion et effet selon ce qui touche (Destruction caisse, tuer joueur, exploser une autre bombe)
@@ -18,15 +21,21 @@ public class ExplosionBlow : MonoBehaviour
     {
         if (other.CompareTag("Respawn"))
         {
-            var tempoManager = Manager.GetComponent<Manager>();
-            for (int i = 0; i < tempoManager.BlockList.Count; i++)
+            for (int i = 0; i < MyManager.BlockList.Count; i++)
             {
-                if (tempoManager.BlockList[i].gameObject.GetInstanceID() == other.gameObject.GetInstanceID())
+                if (MyManager.BlockList[i].gameObject.GetInstanceID() == other.gameObject.GetInstanceID())
                 {
-                    tempoManager.BlockList[i].SetActive(false);
-                    other.GetComponent<LootingBox>().CrateDestroy();
+                    MyManager.BlockList[i].SetActive(false);
+                    NearestPlayer.NbCrateDestroy++;
+                    if(NearestPlayer.NbCrateDestroy >= 5)
+                    {
+                        _pityLoot = true;
+                        NearestPlayer.NbCrateDestroy = 0;
+                    }
+                    other.GetComponent<LootingBox>().CrateDestroy(_pityLoot);
                 }
             }
+            _pityLoot = false;
         }
         if (other.CompareTag("Player"))
         {

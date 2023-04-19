@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float PlayerCooldown = 3f;
     private float _speed = 0.1f;
 
-
+    public int NbCrateDestroy;
     public int PlayerPower = 1;
 
     public KeyCode CubeUp;

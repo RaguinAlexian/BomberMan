@@ -10,26 +10,40 @@ public class LootingBox : MonoBehaviour
 
     public bool Started;
 
-    //Destruction de la caisse + chance de drop uniforme + drop aléatoire
-    public void CrateDestroy()
+    //Destruction de la caisse + chance de drop + drop aléatoire + drop obligatoire si trop de fois rien eu
+    public void CrateDestroy(bool NbCrateDestroyed)
     {
         if (Started)
         {
-            var x = Random.Range(0, 8);
-            switch (x)
+            var y = 0;
+            var x =  Mathf.Clamp01(Random.Range(0, 8) - 6);
+            if (NbCrateDestroyed)
             {
-                case 1 :
-                    Instantiate(PowerUp, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+                y = 1;
+            }
+            var z = x + y;
+            switch (z >= 1)
+            {
+                case true :
+                    var xbis = Random.Range(0, 8);
+                    if(y == 1 || xbis == 1)
+                    {
+                        Instantiate(PowerUp, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+                    }
+                    if(xbis == 4 && y != 1)
+                    {
+                        Instantiate(Unkillable, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+                    }
+                    if (xbis == 7 && y != 1)
+                    {
+                        Instantiate(Cooldown, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+                    }
                     break;
-                case 4:
-                    Instantiate(Unkillable, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
-                    break;
-                case 7:
-                    Instantiate(Cooldown, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+
+                case false:
+                    gameObject.SetActive(false);
                     break;
             }
         }
-    }
-
-    
+    }    
 }
