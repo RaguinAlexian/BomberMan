@@ -325,6 +325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &24291597 stripped
@@ -490,6 +494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &27793905 stripped
@@ -557,6 +565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &29830243 stripped
@@ -623,6 +635,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -805,6 +821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &56078441 stripped
@@ -871,6 +891,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -939,6 +963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &83073090 stripped
@@ -1005,6 +1033,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -1187,6 +1219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &102336609 stripped
@@ -1253,6 +1289,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -1321,6 +1361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &113878399 stripped
@@ -1387,6 +1431,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -1455,6 +1503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &124081396 stripped
@@ -1522,6 +1574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &124866404 stripped
@@ -1588,6 +1644,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -1770,6 +1830,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &137417233 stripped
@@ -1836,6 +1900,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -1904,6 +1972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &159028003 stripped
@@ -1970,6 +2042,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -2038,6 +2114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &163595268 stripped
@@ -2104,6 +2184,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -2172,6 +2256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &168691213 stripped
@@ -2238,6 +2326,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -2306,6 +2398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &179882013 stripped
@@ -2372,6 +2468,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -2440,6 +2540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &189400743 stripped
@@ -2506,6 +2610,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -2574,6 +2682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &193128702 stripped
@@ -2640,6 +2752,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -2708,6 +2824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &206157373 stripped
@@ -2775,6 +2895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &229443975 stripped
@@ -2841,6 +2965,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -2965,6 +3093,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -3101,6 +3233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &263897622 stripped
@@ -3167,6 +3303,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -3349,6 +3489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &282271943 stripped
@@ -3465,6 +3609,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &294555851 stripped
@@ -3531,6 +3679,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -3599,6 +3751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &304049753 stripped
@@ -3665,6 +3821,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -3847,6 +4007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &323192983 stripped
@@ -3913,6 +4077,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -4033,6 +4201,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -4368,6 +4540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &349962916 stripped
@@ -4434,6 +4610,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -4502,6 +4682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &364506302 stripped
@@ -4568,6 +4752,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -4930,6 +5118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &384443604 stripped
@@ -4997,6 +5189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &385510209 stripped
@@ -5063,6 +5259,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -5245,6 +5445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &412274012 stripped
@@ -5311,6 +5515,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -5379,6 +5587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &417475958 stripped
@@ -5445,6 +5657,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -5517,6 +5733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &431687553 stripped
@@ -5583,6 +5803,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -5651,6 +5875,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &434798521 stripped
@@ -5717,6 +5945,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -5785,6 +6017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &451116832 stripped
@@ -5851,6 +6087,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -6033,6 +6273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &466157107 stripped
@@ -6100,6 +6344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &466312623 stripped
@@ -6166,6 +6414,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -6390,6 +6642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &493012440 stripped
@@ -6456,6 +6712,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -6524,6 +6784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &493523506 stripped
@@ -6590,6 +6854,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -6658,6 +6926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &506784199 stripped
@@ -6724,6 +6996,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -6792,6 +7068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &511330407 stripped
@@ -6858,6 +7138,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -6926,6 +7210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &514795727 stripped
@@ -6993,6 +7281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &520189254 stripped
@@ -7059,6 +7351,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -7422,14 +7718,12 @@ MonoBehaviour:
   - {fileID: 1335926514}
   - {fileID: 865847570}
   - {fileID: 1347953898}
-  AllBlock: []
   PlayerList:
   - {fileID: 897406149}
   - {fileID: 1029547872}
   - {fileID: 804281031}
   - {fileID: 7847428}
   PlayerPosition: []
-  TempoBlockPrefab: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
   GameOn: 0
   NbPlayer: 0
   PlayerAlive: 0
@@ -7505,6 +7799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &539360278 stripped
@@ -7572,6 +7870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &549076475 stripped
@@ -7638,6 +7940,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -7820,6 +8126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &569646758 stripped
@@ -7886,6 +8196,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -7954,6 +8268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &578843302 stripped
@@ -8020,6 +8338,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -8088,6 +8410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &592477702 stripped
@@ -8154,6 +8480,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -8278,6 +8608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &600044457 stripped
@@ -8301,7 +8635,7 @@ GameObject:
   - component: {fileID: 601718735}
   m_Layer: 0
   m_Name: Blocking
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8389,6 +8723,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -8613,6 +8951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &643594065 stripped
@@ -8680,6 +9022,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &644417110 stripped
@@ -8746,6 +9092,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     - target: {fileID: 7978145531057657179, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_IsTrigger
@@ -8818,6 +9168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &647494984 stripped
@@ -8884,6 +9238,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -8952,6 +9310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &649975081 stripped
@@ -9019,6 +9381,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &655759885 stripped
@@ -9085,6 +9451,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -9267,6 +9637,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &665302908 stripped
@@ -9333,6 +9707,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -9401,6 +9779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &671945470 stripped
@@ -9467,6 +9849,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -9535,6 +9921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &676541249 stripped
@@ -9601,6 +9991,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -9669,6 +10063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &696926457 stripped
@@ -9736,6 +10134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &697008491 stripped
@@ -9802,6 +10204,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -10120,6 +10526,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &705526984 stripped
@@ -10244,6 +10654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &709210740 stripped
@@ -10311,6 +10725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &722689292 stripped
@@ -10377,6 +10795,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -10559,6 +10981,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &727491364 stripped
@@ -10625,6 +11051,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -10693,6 +11123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &753954202 stripped
@@ -10759,6 +11193,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -10827,6 +11265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &760265270 stripped
@@ -10893,6 +11335,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -10961,6 +11407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &773492473 stripped
@@ -11028,6 +11478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &779686381 stripped
@@ -11094,6 +11548,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -11309,6 +11767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &811706479 stripped
@@ -11376,6 +11838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &811775284 stripped
@@ -11442,6 +11908,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -11776,6 +12246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &834509802 stripped
@@ -11898,6 +12372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &842292144 stripped
@@ -11964,6 +12442,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -12032,6 +12514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &877391254 stripped
@@ -12098,6 +12584,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -12166,6 +12656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &882474088 stripped
@@ -12233,6 +12727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &890906254 stripped
@@ -12299,6 +12797,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -12514,6 +13016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &899621172 stripped
@@ -12580,6 +13086,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -12648,6 +13158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &904088008 stripped
@@ -12714,6 +13228,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -12782,6 +13300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &916826392 stripped
@@ -12848,6 +13370,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -12916,6 +13442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &922791268 stripped
@@ -12982,6 +13512,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -13050,6 +13584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &931140239 stripped
@@ -13116,6 +13654,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -13298,6 +13840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &943570516 stripped
@@ -13420,6 +13966,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -13602,6 +14152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &948696299 stripped
@@ -13668,6 +14222,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -13736,6 +14294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &961036107 stripped
@@ -13802,6 +14364,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -13954,6 +14520,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &975822788 stripped
@@ -14020,6 +14590,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -14088,6 +14662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &981750015 stripped
@@ -14155,6 +14733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &990662262 stripped
@@ -14221,6 +14803,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -14452,6 +15038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1018083230 stripped
@@ -14666,6 +15256,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1033111992 stripped
@@ -14732,6 +15326,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -14800,6 +15398,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1035318226 stripped
@@ -14866,6 +15468,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -14934,6 +15540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1037609454 stripped
@@ -15000,6 +15610,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -15239,6 +15853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1065196207 stripped
@@ -15305,6 +15923,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -15373,6 +15995,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1072474404 stripped
@@ -15439,6 +16065,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -15507,6 +16137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1087262538 stripped
@@ -15574,6 +16208,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1098400342 stripped
@@ -15640,6 +16278,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -15822,6 +16464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1111644462 stripped
@@ -15888,6 +16534,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -15956,6 +16606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1128394252 stripped
@@ -16022,6 +16676,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -16090,6 +16748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1137707510 stripped
@@ -16156,6 +16818,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -16224,6 +16890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1143097861 stripped
@@ -16290,6 +16960,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -16358,6 +17032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1148942459 stripped
@@ -16424,6 +17102,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -16492,6 +17174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1164875521 stripped
@@ -16558,6 +17244,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -16626,6 +17316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1185267365 stripped
@@ -16693,6 +17387,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1189779461 stripped
@@ -16759,6 +17457,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -16831,6 +17533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     - target: {fileID: 7978145531057657179, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -16902,6 +17608,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1195606879 stripped
@@ -16968,6 +17678,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -17036,6 +17750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1206800295 stripped
@@ -17102,6 +17820,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -17170,6 +17892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1225134851 stripped
@@ -17236,6 +17962,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -17304,6 +18034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1241263218 stripped
@@ -17370,6 +18104,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -17438,6 +18176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1246796564 stripped
@@ -17504,6 +18246,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -17821,6 +18567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1259100356 stripped
@@ -17887,6 +18637,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -17955,6 +18709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1260718060 stripped
@@ -18021,6 +18779,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -18089,6 +18851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1280047821 stripped
@@ -18155,6 +18921,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -18223,6 +18993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1296212241 stripped
@@ -18289,6 +19063,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -18357,6 +19135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1303183058 stripped
@@ -18423,6 +19205,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -18605,6 +19391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1318596252 stripped
@@ -18671,6 +19461,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -18794,6 +19588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1329747452 stripped
@@ -18860,6 +19658,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -18928,6 +19730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1347953897 stripped
@@ -18994,6 +19800,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -19062,6 +19872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1360309209 stripped
@@ -19128,6 +19942,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -19445,6 +20263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1388090041 stripped
@@ -19511,6 +20333,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -19579,6 +20405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1413521719 stripped
@@ -19645,6 +20475,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -19862,6 +20696,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1425822534 stripped
@@ -19967,6 +20805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1445650424 stripped
@@ -20033,6 +20875,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -20101,6 +20947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1452626643 stripped
@@ -20167,6 +21017,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -20349,6 +21203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1466162430 stripped
@@ -20416,6 +21274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1474817034 stripped
@@ -20482,6 +21344,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -20664,6 +21530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1487350394 stripped
@@ -20730,6 +21600,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -20854,6 +21728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1497623252 stripped
@@ -20920,6 +21798,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -20988,6 +21870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1505031430 stripped
@@ -21054,6 +21940,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -21122,6 +22012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1508862700 stripped
@@ -21188,6 +22082,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -21256,6 +22154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1522063549 stripped
@@ -21323,6 +22225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1523015214 stripped
@@ -21389,6 +22295,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -21461,6 +22371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1535818082 stripped
@@ -21527,6 +22441,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -21595,6 +22513,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1538438382 stripped
@@ -21661,6 +22583,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -21729,6 +22655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1540774217 stripped
@@ -21795,6 +22725,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -21912,6 +22846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1555273649 stripped
@@ -21978,6 +22916,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -22160,6 +23102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1586752980 stripped
@@ -22226,6 +23172,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -22294,6 +23244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1597173909 stripped
@@ -22360,6 +23314,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -22428,6 +23386,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1604498639 stripped
@@ -22494,6 +23456,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -22676,6 +23642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1616461545 stripped
@@ -22742,6 +23712,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -22810,6 +23784,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1625924052 stripped
@@ -22876,6 +23854,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -22944,6 +23926,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1628281459 stripped
@@ -23010,6 +23996,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -23078,6 +24068,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1635538184 stripped
@@ -23144,6 +24138,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -23212,6 +24210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1648080617 stripped
@@ -23278,6 +24280,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -23346,6 +24352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1653005537 stripped
@@ -23413,6 +24423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1661738168 stripped
@@ -23479,6 +24493,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -23661,6 +24679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1664963767 stripped
@@ -23727,6 +24749,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -23795,6 +24821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1669652803 stripped
@@ -23861,6 +24891,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -23929,6 +24963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1675007587 stripped
@@ -23995,6 +25033,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -24177,6 +25219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1681617561 stripped
@@ -24301,6 +25347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1691123870 stripped
@@ -24367,6 +25417,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -24435,6 +25489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1698780070 stripped
@@ -24501,6 +25559,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -24569,6 +25631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1702579897 stripped
@@ -24635,6 +25701,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -24703,6 +25773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1717626488 stripped
@@ -24769,6 +25843,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -24837,6 +25915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1727240862 stripped
@@ -24903,6 +25985,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -24971,6 +26057,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1742107156 stripped
@@ -25037,6 +26127,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -25105,6 +26199,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1753093637 stripped
@@ -25171,6 +26269,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -25374,6 +26476,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1780720981 stripped
@@ -25441,6 +26547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1781544251 stripped
@@ -25507,6 +26617,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -25689,6 +26803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1794304068 stripped
@@ -25756,6 +26874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1795297517 stripped
@@ -25822,6 +26944,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -26061,6 +27187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1822514565 stripped
@@ -26128,6 +27258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1824961758 stripped
@@ -26194,6 +27328,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -26376,6 +27514,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1832199362 stripped
@@ -26442,6 +27584,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -26558,6 +27704,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -27031,6 +28181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1882574657 stripped
@@ -27097,6 +28251,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -27279,6 +28437,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1889547882 stripped
@@ -27345,6 +28507,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -27413,6 +28579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1905905420 stripped
@@ -27479,6 +28649,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -27547,6 +28721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1948485220 stripped
@@ -27613,6 +28791,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -27681,6 +28863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1962510951 stripped
@@ -27747,6 +28933,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -27815,6 +29005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1980651210 stripped
@@ -27881,6 +29075,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -27949,6 +29147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &1983509553 stripped
@@ -28015,6 +29217,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -28197,6 +29403,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2007178253 stripped
@@ -28378,6 +29588,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2018585347 stripped
@@ -28444,6 +29658,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -28512,6 +29730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2021720974 stripped
@@ -28578,6 +29800,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -28646,6 +29872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2035037815 stripped
@@ -28712,6 +29942,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -28780,6 +30014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2039341440 stripped
@@ -28846,6 +30084,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -29028,6 +30270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2047410216 stripped
@@ -29095,6 +30341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2058184072 stripped
@@ -29161,6 +30411,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -29286,6 +30540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2070696368 stripped
@@ -29352,6 +30610,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -29420,6 +30682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2091251600 stripped
@@ -29486,6 +30752,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
@@ -29610,6 +30880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TempoBlock (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
 --- !u!4 &2115325897 stripped
@@ -29676,6 +30950,10 @@ PrefabInstance:
     - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
       propertyPath: m_Name
       value: TempoBlock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6005170770663718388, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72c995d3ceed31c44b9da58990626afa, type: 3}

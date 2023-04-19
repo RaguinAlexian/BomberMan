@@ -6,11 +6,8 @@ using TMPro;
 public class Manager : MonoBehaviour
 {
     public List<GameObject> BlockList;
-    public List<Vector3> AllBlock;
     public List<GameObject> PlayerList;
     public List<Vector3> PlayerPosition;
-
-    public GameObject TempoBlockPrefab;
 
     public bool GameOn;
     
@@ -20,21 +17,15 @@ public class Manager : MonoBehaviour
     public int PlayerAlive;
 
     private bool _allGood;
+    private bool _gamingTime;
 
     private KeyCode TempoKey;
 
     public ButtonScript MyButton;
     public ButtonScript Text;
-    // Start is called before the first frame update
+
     void Start()
     {
-        var tempPosition = new Vector3(0,0,0);
-        for (int x = 0; x < BlockList.Count; x++)
-        {
-            tempPosition = new Vector3(BlockList[x].transform.position.x, BlockList[x].transform.position.y, BlockList[x].transform.position.z);
-            AllBlock.Add(tempPosition);
-        }
-        Instantiate(TempoBlockPrefab, AllBlock[1], Quaternion.identity);
         for(int y = 0; y < PlayerList.Count; y++)
         {
             var tempPlayerPosition = new Vector3(PlayerList[y].transform.position.x, PlayerList[y].transform.position.y, PlayerList[y].transform.position.z);
@@ -45,23 +36,17 @@ public class Manager : MonoBehaviour
     public void ResetMap()
     {
         NbPlayer = PlayerList.Count;
+        PlayerAlive = NbPlayer;
         for (int x = 0; x < BlockList.Count; x++)
         {
-            var tempGameObject = BlockList[x];
-            BlockList.RemoveAt(x);
-            Debug.Log(BlockList[x]);
-            Destroy(tempGameObject);
-        }
-        for (int y = 0; y < AllBlock.Count; y++)
-        {
-            BlockList.Add(Instantiate(TempoBlockPrefab, AllBlock[y], Quaternion.identity));
+            BlockList[x].SetActive(true);
         }
         for (int z = 0; z < BlockList.Count; z++)
         {
             var x = Random.Range(1, 6);
             if (x <= 2)
             {
-                Destroy(BlockList[z]);
+                BlockList[z].SetActive(false);
             }
             else
             {
@@ -142,10 +127,11 @@ public class Manager : MonoBehaviour
                 }
                 else
                 {
-                    if (_currentPlayer == PlayerList.Count && !GameOn)
+                    if (_currentPlayer == PlayerList.Count && !GameOn && !_gamingTime)
                     {
                         Text.gameObject.SetActive(false);
                         MyButton.MyButton.SetActive(true);
+                        _gamingTime = true;
                     }
                 }
             }
@@ -167,7 +153,7 @@ public class Manager : MonoBehaviour
                 }
             }
         }
-        if (GameOn)
+        if (GameOn && _gamingTime)
         {
             if(PlayerAlive <= 0 && _currentPlayer != 1)
             {
@@ -179,7 +165,8 @@ public class Manager : MonoBehaviour
             if(PlayerAlive == 1 && _currentPlayer != 1)
             {
                 Text.gameObject.SetActive(true);
-                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[0].name + ", a vaincu !";
+                var TempWinner = GameObject.FindGameObjectsWithTag("Player");
+                Text.GetComponent<TextMeshProUGUI>().text = TempWinner[0].name + ", a vaincu !";
                 GameOn = false;
                 StartCoroutine(WaitForEnding());
             }

@@ -144,4 +144,5 @@ MonoBehaviour:
   PowerUp: {fileID: 5496335896996383236, guid: 3203657ef8d9731428452c9a2eb78b8f, type: 3}
   Unkillable: {fileID: 3605105150950863406, guid: 106ea85699f7d0f4292e953f0f486f0f, type: 3}
   Cooldown: {fileID: 7103729184917175595, guid: 8993dc7716598c6419e6398330d47bf7, type: 3}
+  Manager: {fileID: 0}
   started: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ExplosionBlow : MonoBehaviour
 {
-    private GameObject Manager;
+    public GameObject Manager;
     void Start()
     {
         StartCoroutine(WaitUntilFade());
@@ -13,16 +13,16 @@ public class ExplosionBlow : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!other.CompareTag("Finish") && !other.CompareTag("Player"))
+        if (other.CompareTag("Respawn"))
         {
-            if (other.GetComponent<LootingBox>())
+            var tempoManager = Manager.GetComponent<Manager>();
+            for (int i = 0; i < tempoManager.BlockList.Count; i++)
             {
-                //Manager.GetComponent<Manager>();
-                other.GetComponent<LootingBox>().CrateDestroy();
-            }
-            else
-            {
-                Destroy(other.gameObject);
+                if (tempoManager.BlockList[i].gameObject.GetInstanceID() == other.gameObject.GetInstanceID())
+                {
+                    tempoManager.BlockList[i].SetActive(false);
+                    other.GetComponent<LootingBox>().CrateDestroy();
+                }
             }
         }
         if (other.CompareTag("Player"))

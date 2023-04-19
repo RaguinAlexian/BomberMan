@@ -8,10 +8,8 @@ public class LootingBox : MonoBehaviour
     public GameObject Unkillable;
     public GameObject Cooldown;
 
-    public Manager Manager;
-
     public bool started;
-    // Start is called before the first frame update
+
     void Start()
     {
         
@@ -33,7 +31,6 @@ public class LootingBox : MonoBehaviour
                     Instantiate(Cooldown, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
                     break;
             }
-            Destroy(gameObject);
         }
     }
 
