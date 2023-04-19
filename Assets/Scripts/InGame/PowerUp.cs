@@ -24,7 +24,6 @@ public class PowerUp : MonoBehaviour
                 {
                     if (tempStatList[j].name == ("PowerBombP" + (i+1).ToString()))
                     {
-                        Debug.Log(tempStatList[j].name);
                         tempStatList[j].GetComponent<TextMeshProUGUI>().text = "Power : " + (other.GetComponent<PlayerMovement>().PlayerPower).ToString();
                     }
                 }

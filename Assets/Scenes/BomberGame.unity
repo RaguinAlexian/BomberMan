@@ -175,6 +175,7 @@ MonoBehaviour:
   MyPlayerTransform: {fileID: 7847434}
   BombLaunchReady: 1
   PlayerCooldown: 3
+  NbCrateDestroy: 0
   PlayerPower: 1
   CubeUp: 0
   CubeDown: 0
@@ -12416,6 +12417,7 @@ MonoBehaviour:
   MyPlayerTransform: {fileID: 804281037}
   BombLaunchReady: 1
   PlayerCooldown: 3
+  NbCrateDestroy: 0
   PlayerPower: 1
   CubeUp: 0
   CubeDown: 0
@@ -13761,6 +13763,7 @@ MonoBehaviour:
   MyPlayerTransform: {fileID: 897406153}
   BombLaunchReady: 1
   PlayerCooldown: 3
+  NbCrateDestroy: 0
   PlayerPower: 1
   CubeUp: 0
   CubeDown: 0
@@ -15937,6 +15940,7 @@ MonoBehaviour:
   MyPlayerTransform: {fileID: 1029547878}
   BombLaunchReady: 1
   PlayerCooldown: 3
+  NbCrateDestroy: 0
   PlayerPower: 1
   CubeUp: 0
   CubeDown: 0

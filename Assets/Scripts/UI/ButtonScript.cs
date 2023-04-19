@@ -28,6 +28,14 @@ public class ButtonScript : MonoBehaviour
         else
         {
             gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(width, height / 4);
+            if(gameObject.name == "LaunchGame")
+            {
+                gameObject.GetComponent<RectTransform>().anchoredPosition = new Vector2(width/4 - 100,height/2);
+            }
+            if(gameObject.name == "MenuButton") 
+            {
+                gameObject.GetComponent<RectTransform>().anchoredPosition = new Vector2(width / 4 + 100, height / 2);
+            }
         }
     }
 

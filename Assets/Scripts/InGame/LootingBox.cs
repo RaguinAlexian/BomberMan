@@ -15,32 +15,36 @@ public class LootingBox : MonoBehaviour
     {
         if (Started)
         {
-            var y = 0;
-            var x =  Mathf.Clamp01(Random.Range(0, 8) - 6);
+            var x = Random.Range(0, 8);
             if (NbCrateDestroyed)
             {
-                y = 1;
+                x = 1;
             }
-            var z = x + y;
-            switch (z >= 1)
+            switch (x)
             {
-                case true :
-                    var xbis = Random.Range(0, 8);
-                    if(y == 1 || xbis == 1)
+                case 1 :
+                    if(x == 1 || NbCrateDestroyed)
                     {
                         Instantiate(PowerUp, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
                     }
-                    if(xbis == 4 && y != 1)
+                    gameObject.SetActive(false);
+                    break;
+                case 2 :    
+                    if(x == 2 && !NbCrateDestroyed)
                     {
                         Instantiate(Unkillable, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
                     }
-                    if (xbis == 7 && y != 1)
+                    gameObject.SetActive(false);
+                    break;
+                case 3:
+                    if (x == 3 && !NbCrateDestroyed)
                     {
                         Instantiate(Cooldown, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
                     }
+                    gameObject.SetActive(false);
                     break;
 
-                case false:
+                default :
                     gameObject.SetActive(false);
                     break;
             }

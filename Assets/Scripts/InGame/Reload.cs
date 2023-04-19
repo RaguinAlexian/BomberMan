@@ -24,7 +24,6 @@ public class Reload : MonoBehaviour
                 {
                     if (tempStatList[j].name == ("CooldownBombP" + (i+1).ToString()))
                     {
-                        Debug.Log(tempStatList[j].name);
                         tempStatList[j].GetComponent<TextMeshProUGUI>().text = "Cooldown : " + (Mathf.Round(other.GetComponent<PlayerMovement>().PlayerCooldown * 100.0f) * 0.01f).ToString();
                     }
                 }
