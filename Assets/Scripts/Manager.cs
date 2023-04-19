@@ -7,6 +7,7 @@ public class Manager : MonoBehaviour
 {
     public List<GameObject> BlockList;
     public List<GameObject> PlayerList;
+    public List<GameObject> StatUIList;
     public List<Vector3> PlayerPosition;
 
     public bool GameOn;
@@ -18,6 +19,7 @@ public class Manager : MonoBehaviour
 
     private bool _allGood;
     private bool _gamingTime;
+    private bool _wantUI;
 
     private KeyCode TempoKey;
 
@@ -26,11 +28,12 @@ public class Manager : MonoBehaviour
 
     void Start()
     {
-        for(int y = 0; y < PlayerList.Count; y++)
+        for (int y = 0; y < PlayerList.Count; y++)
         {
             var tempPlayerPosition = new Vector3(PlayerList[y].transform.position.x, PlayerList[y].transform.position.y, PlayerList[y].transform.position.z);
             PlayerPosition.Add(tempPlayerPosition);
         }
+        ShowOrNotUI();
     }
 
     public void ResetMap()
@@ -57,6 +60,17 @@ public class Manager : MonoBehaviour
         {
             PlayerList[i].SetActive(true);
             PlayerList[i].transform.position = PlayerPosition[i];
+            PlayerList[i].GetComponent<PlayerMovement>().PlayerCooldown = 3;
+            PlayerList[i].GetComponent<PlayerMovement>().PlayerPower = 1;
+        }
+        _wantUI = true;
+        ShowOrNotUI();
+        for (int z = StatUIList.Count - 1; z > 0; z--)
+        {
+            if (z >= 2 * PlayerList.Count)
+            {
+                StatUIList[z].SetActive(false);
+            }
         }
     }
 
@@ -202,5 +216,25 @@ public class Manager : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         Ending();
+    }
+
+    public void ShowOrNotUI()
+    {
+        if (_wantUI)
+        {
+            Debug.Log("Dedans");
+            for (int j = 0; j < StatUIList.Count; j++)
+            {
+                StatUIList[j].SetActive(true);
+            }
+        }
+        else
+        {
+            Debug.Log("Dehors");
+            for (int i = 0; i < StatUIList.Count; i++)
+            {
+                StatUIList[i].SetActive(false);
+            }
+        }
     }
 }
