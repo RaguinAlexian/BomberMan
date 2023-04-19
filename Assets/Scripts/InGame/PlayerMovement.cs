@@ -7,10 +7,12 @@ public class PlayerMovement : MonoBehaviour
     public Transform MyPlayerTransform;
     
     public bool BombLaunchReady;
-    public bool colorSwitch;
+    private bool _colorSwitch;
+
     
-    public float speed = 0.1f;
     public float PlayerCooldown = 3f;
+    private float _speed = 0.1f;
+
 
     public int PlayerPower = 1;
 
@@ -20,40 +22,41 @@ public class PlayerMovement : MonoBehaviour
     public KeyCode CubeLeft;
     public KeyCode BombaKey;
     
+    public Manager Manager;
     public GameObject BombPrefab;
 
-    public Manager Manager;
     [SerializeField]
     private List<Material> ColorList;
     private Material DefaultColor;
 
-    // Start is called before the first frame update
+    //On sauvegarde le material de base du joueur.
     void Start()
     {
         DefaultColor = gameObject.GetComponent<Renderer>().material;
     }
 
-    // Update is called once per frame
+    //Déplacement libre sauf diagonales + placement de bombe sur la grille
     void Update()
     {
         if (Manager.GameOn)
         {
             if (Input.GetKey(CubeUp))
             {
-                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * speed;
+                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * _speed;
             }
             else if (Input.GetKey(CubeDown))
             {
-                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * speed * -1;
+                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.up * _speed * -1;
             }
             else if (Input.GetKey(CubeLeft))
             {
-                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * -1 * speed;
+                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * -1 * _speed;
             }
             else if (Input.GetKey(CubeRight))
             {
-                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * speed;
+                MyPlayerTransform.position = MyPlayerTransform.position + MyPlayerTransform.right * _speed;
             }
+            
             if (Input.GetKey(BombaKey) && BombLaunchReady)
             {
                 BombLaunchReady = !BombLaunchReady;
@@ -72,6 +75,7 @@ public class PlayerMovement : MonoBehaviour
         BombLaunchReady = !BombLaunchReady;
     }
 
+    //Mort du joueur 
     public void IsDying()
     {
         for(int i = 0; i < Manager.PlayerList.Count; i++)
@@ -85,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
         Manager.PlayerAlive--;
     }
 
+    //Changement de la couleur et du tag sur un temps d'invincibilité temporaire
     public void Invincibility()
     {
         StartCoroutine(WaitForEnd());
@@ -95,14 +100,14 @@ public class PlayerMovement : MonoBehaviour
     {
         yield return new WaitForSeconds(6f);
         gameObject.tag = "Player";
-        colorSwitch = false;
+        _colorSwitch = false;
         gameObject.GetComponent<Renderer>().material = DefaultColor;
     }
 
     IEnumerator RandomColor()
     {
-        colorSwitch = true;
-        while (colorSwitch)
+        _colorSwitch = true;
+        while (_colorSwitch)
         {
             var x = Random.Range(0, ColorList.Count);
             gameObject.GetComponent<Renderer>().material = ColorList[x];

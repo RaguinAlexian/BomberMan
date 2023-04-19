@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Unkillable : MonoBehaviour
 {
+    //PickUp pour rendre le joueur invincible. Puisque l'explosion regarde les tags, on change celui de l'objet l'ayant ramassé. Comme seuls les joueurs peuvent se déplacer aucun problème.
     private void OnTriggerEnter(Collider other)
     {
         other.gameObject.tag = "Finish";
@@ -11,6 +12,7 @@ public class Unkillable : MonoBehaviour
         Destroy(gameObject);
     }
 
+    //Start + Coroutine pour donner un temps avant de dépop
     void Start()
     {
         StartCoroutine(WaitDespawn());

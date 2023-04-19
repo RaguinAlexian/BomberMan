@@ -8,15 +8,12 @@ public class LootingBox : MonoBehaviour
     public GameObject Unkillable;
     public GameObject Cooldown;
 
-    public bool started;
+    public bool Started;
 
-    void Start()
-    {
-        
-    }
+    //Destruction de la caisse + chance de drop uniforme + drop aléatoire
     public void CrateDestroy()
     {
-        if (started)
+        if (Started)
         {
             var x = Random.Range(0, 8);
             switch (x)

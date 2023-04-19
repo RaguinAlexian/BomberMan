@@ -6,12 +6,16 @@ using TMPro;
 public class Reload : MonoBehaviour
 {
     public GameObject Manager;
+
+    //On récupère le script PlayerMovement de l'objet ayant récupéré le PickUp et on réduit son cooldown. Et l'on met à jour l'UI qui correspond à l'index du joueur dans la liste des joueurs. Comme seuls les joueurs peuvent se déplacer aucun problème.
     private void OnTriggerEnter(Collider other)
     {
         other.GetComponent<PlayerMovement>().PlayerCooldown = other.GetComponent<PlayerMovement>().PlayerCooldown - (other.GetComponent<PlayerMovement>().PlayerCooldown / 10);
         Manager = GameObject.Find("GameManager");
+        
         var tempoManager = Manager.GetComponent<Manager>();
         var tempStatList = GameObject.FindGameObjectsWithTag("StatUIText");
+        
         for (int i = 0; i < tempoManager.PlayerList.Count; i++)
         {
             if (tempoManager.PlayerList[i].gameObject.GetInstanceID() == other.gameObject.GetInstanceID())
@@ -29,6 +33,7 @@ public class Reload : MonoBehaviour
         Destroy(gameObject);
     }
 
+    //Start + Coroutine pour donner un temps avant de dépop
     void Start()
     {
         StartCoroutine(WaitDespawn());

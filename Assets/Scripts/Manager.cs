@@ -7,31 +7,34 @@ public class Manager : MonoBehaviour
 {
     public List<GameObject> BlockList;
     public List<GameObject> PlayerList;
+    public List<GameObject> InitialPlayerList;
     public List<GameObject> StatUIList;
     public List<Vector3> PlayerPosition;
-
-    public bool GameOn;
     
-    private int _count;
-    private int _currentPlayer;
+    public ButtonScript LaunchGame;
+    public ButtonScript Menu;
+    public ButtonScript Text;
+
+    public int Count;
+    public int CurrentPlayer;
     public int NbPlayer;
     public int PlayerAlive;
 
-    private bool _allGood;
-    private bool _gamingTime;
+    public bool GameOn;
+    public bool AllGood;
+    public bool GamingTime;
+
     private bool _wantUI;
 
-    private KeyCode TempoKey;
-
-    public ButtonScript MyButton;
-    public ButtonScript Text;
-
+    private KeyCode _tempoKey;
+    
     void Start()
     {
         for (int y = 0; y < PlayerList.Count; y++)
         {
             var tempPlayerPosition = new Vector3(PlayerList[y].transform.position.x, PlayerList[y].transform.position.y, PlayerList[y].transform.position.z);
             PlayerPosition.Add(tempPlayerPosition);
+            InitialPlayerList.Add(PlayerList[y]);
         }
         ShowOrNotUI();
     }
@@ -40,10 +43,14 @@ public class Manager : MonoBehaviour
     {
         NbPlayer = PlayerList.Count;
         PlayerAlive = NbPlayer;
+        _wantUI = true;
+        ShowOrNotUI();
+        
         for (int x = 0; x < BlockList.Count; x++)
         {
             BlockList[x].SetActive(true);
         }
+        
         for (int z = 0; z < BlockList.Count; z++)
         {
             var x = Random.Range(1, 6);
@@ -53,9 +60,10 @@ public class Manager : MonoBehaviour
             }
             else
             {
-                BlockList[z].GetComponent<LootingBox>().started = true;
+                BlockList[z].GetComponent<LootingBox>().Started = true;
             }
         }
+        
         for (int i = 0; i < PlayerList.Count; i++)
         {
             PlayerList[i].SetActive(true);
@@ -63,8 +71,7 @@ public class Manager : MonoBehaviour
             PlayerList[i].GetComponent<PlayerMovement>().PlayerCooldown = 3;
             PlayerList[i].GetComponent<PlayerMovement>().PlayerPower = 1;
         }
-        _wantUI = true;
-        ShowOrNotUI();
+        
         for (int z = StatUIList.Count - 1; z > 0; z--)
         {
             if (z >= 2 * PlayerList.Count)
@@ -76,76 +83,94 @@ public class Manager : MonoBehaviour
 
     void Update()
     {
-        if (!MyButton.Menu)
+        if (!LaunchGame.Menu)
         {
-            if (_allGood)
+            if (AllGood)
             {
-                if (_currentPlayer < PlayerList.Count)
+                //Le joueur va choisir ses touches, choix du joueur
+                if (CurrentPlayer < PlayerList.Count)
                 {
-                    if (_count < 5)
+                    //Choix des touches et implémentations de celles-ci
+                    if (Count < 5)
                     {
-                        switch (_count)
+                        switch (Count)
                         {
                             case 0:
-                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[_currentPlayer].name + ", choisissez votre touche pour aller vers le haut !";
-                                PlayerList[_currentPlayer].GetComponent<PlayerMovement>().CubeUp = TempoKey;
-                                if (PlayerList[_currentPlayer].GetComponent<PlayerMovement>().CubeUp != KeyCode.None)
+                                
+                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[CurrentPlayer].name + ", choisissez votre touche pour aller vers le haut !";
+                                PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().CubeUp = _tempoKey;
+                                
+                                if (PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().CubeUp != KeyCode.None)
                                 {
-                                    TempoKey = KeyCode.None;
-                                    _count++;
+                                    _tempoKey = KeyCode.None;
+                                    Count++;
                                 }
                                 break;
+                            
                             case 1:
-                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[_currentPlayer].name + ", choisissez votre touche pour aller vers le bas !";
-                                PlayerList[_currentPlayer].GetComponent<PlayerMovement>().CubeDown = TempoKey;
-                                if (PlayerList[_currentPlayer].GetComponent<PlayerMovement>().CubeDown != KeyCode.None)
+                                
+                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[CurrentPlayer].name + ", choisissez votre touche pour aller vers le bas !";
+                                PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().CubeDown = _tempoKey;
+                                
+                                if (PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().CubeDown != KeyCode.None)
                                 {
-                                    TempoKey = KeyCode.None;
-                                    _count++;
+                                    _tempoKey = KeyCode.None;
+                                    Count++;
                                 }
                                 break;
+                            
                             case 2:
-                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[_currentPlayer].name + ", choisissez votre touche pour aller vers la gauche !";
-                                PlayerList[_currentPlayer].GetComponent<PlayerMovement>().CubeLeft = TempoKey;
-                                if (PlayerList[_currentPlayer].GetComponent<PlayerMovement>().CubeLeft != KeyCode.None)
+                                
+                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[CurrentPlayer].name + ", choisissez votre touche pour aller vers la gauche !";
+                                PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().CubeLeft = _tempoKey;
+                                
+                                if (PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().CubeLeft != KeyCode.None)
                                 {
-                                    TempoKey = KeyCode.None;
-                                    _count++;
+                                    _tempoKey = KeyCode.None;
+                                    Count++;
                                 }
                                 break;
+                            
                             case 3:
-                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[_currentPlayer].name + ", choisissez votre touche pour aller vers la droite !";
-                                PlayerList[_currentPlayer].GetComponent<PlayerMovement>().CubeRight = TempoKey;
-                                if (PlayerList[_currentPlayer].GetComponent<PlayerMovement>().CubeRight != KeyCode.None)
+                                
+                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[CurrentPlayer].name + ", choisissez votre touche pour aller vers la droite !";
+                                PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().CubeRight = _tempoKey;
+                                
+                                if (PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().CubeRight != KeyCode.None)
                                 {
-                                    TempoKey = KeyCode.None;
-                                    _count++;
+                                    _tempoKey = KeyCode.None;
+                                    Count++;
                                 }
                                 break;
+                            
                             case 4:
-                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[_currentPlayer].name + ", choisissez votre touche pour poser une bombe !";
-                                PlayerList[_currentPlayer].GetComponent<PlayerMovement>().BombaKey = TempoKey;
-                                if (PlayerList[_currentPlayer].GetComponent<PlayerMovement>().BombaKey != KeyCode.None)
+                                
+                                Text.GetComponent<TextMeshProUGUI>().text = PlayerList[CurrentPlayer].name + ", choisissez votre touche pour poser une bombe !";
+                                PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().BombaKey = _tempoKey;
+                                
+                                if (PlayerList[CurrentPlayer].GetComponent<PlayerMovement>().BombaKey != KeyCode.None)
                                 {
-                                    TempoKey = KeyCode.None;
-                                    _count++;
+                                    _tempoKey = KeyCode.None;
+                                    Count++;
                                 }
                                 break;
                         }
                     }
                     else
                     {
-                        _count = 0;
-                        _currentPlayer++;
+                        Count = 0;
+                        CurrentPlayer++;
                     }
                 }
+                //Après le choix du nombre de joueurs on fait apparaitre les boutons pour jouer ou revenir en arrière
                 else
                 {
-                    if (_currentPlayer == PlayerList.Count && !GameOn && !_gamingTime)
+                    if (CurrentPlayer == PlayerList.Count && !GameOn && !GamingTime)
                     {
+                        LaunchGame.LaunchButton.SetActive(true);
                         Text.gameObject.SetActive(false);
-                        MyButton.MyButton.SetActive(true);
-                        _gamingTime = true;
+                        Menu.MyButton.SetActive(true);
+                        GamingTime = true;
                     }
                 }
             }
@@ -155,28 +180,31 @@ public class Manager : MonoBehaviour
                 {
                     Text.GetComponent<TextMeshProUGUI>().text = "Nombre Joueur ?";
                 }
+                //Tous les joueurs existent jusqu'à ce qu'on choisisse le nombre de joueur jouant. On les retire alors de la liste
                 else
                 {
                     for (int i = 1; i <= 4 - NbPlayer; i++)
                     {
                         var tempPlayer = PlayerList[4 - i];
                         PlayerList.Remove(PlayerList[4 - i]);
-                        Destroy(tempPlayer);
+                        tempPlayer.SetActive(false);
                     }
-                    _allGood = !_allGood;
+                    AllGood = !AllGood;
                 }
             }
         }
-        if (GameOn && _gamingTime)
+        if (GameOn && GamingTime)
         {
-            if(PlayerAlive <= 0 && _currentPlayer != 1)
+            //Vérification de victoire
+            if(PlayerAlive <= 0 && CurrentPlayer != 1)
             {
                 Text.gameObject.SetActive(true);
                 Text.GetComponent<TextMeshProUGUI>().text = "Personne n'a gagné";
                 GameOn = false;
                 StartCoroutine(WaitForEnding());
             }
-            if(PlayerAlive == 1 && _currentPlayer != 1)
+            
+            if(PlayerAlive == 1 && CurrentPlayer != 1)
             {
                 Text.gameObject.SetActive(true);
                 var TempWinner = GameObject.FindGameObjectsWithTag("Player");
@@ -184,7 +212,8 @@ public class Manager : MonoBehaviour
                 GameOn = false;
                 StartCoroutine(WaitForEnding());
             }
-            if (PlayerAlive <= 0 && _currentPlayer == 1)
+            
+            if (PlayerAlive <= 0 && CurrentPlayer == 1)
             {
                 Text.gameObject.SetActive(true);
                 Text.GetComponent<TextMeshProUGUI>().text = "Vous avez perdu";
@@ -194,22 +223,26 @@ public class Manager : MonoBehaviour
         }
     }
 
+    //Détecte quand on appuie sur une touche et sur laquelle. Utilisée pour implémenter les touches voulus
     private void OnGUI()
     {
-        if (_count <= 5)
+        if (Count <= 5 && !GameOn)
         {
             Event e = Event.current;
             if (e.isKey && (e.type == EventType.KeyUp))
-            { 
-                TempoKey = e.keyCode;
+            {
+                _tempoKey = e.keyCode;
             }
         }
     }
 
+    //Fonction lancée lors de la fin de partie pour rejouer ou revenir au menu
     private void Ending()
     {
+        LaunchGame.LaunchButton.SetActive(true);
         Text.gameObject.SetActive(false);
-        MyButton.MyButton.SetActive(true);
+        Menu.MyButton.SetActive(true);
+
     }
 
     IEnumerator WaitForEnding()
@@ -218,11 +251,11 @@ public class Manager : MonoBehaviour
         Ending();
     }
 
+   //Affiche ou non les stats des différents joueurs selon le nombre de joueurs
     public void ShowOrNotUI()
     {
         if (_wantUI)
         {
-            Debug.Log("Dedans");
             for (int j = 0; j < StatUIList.Count; j++)
             {
                 StatUIList[j].SetActive(true);
@@ -230,7 +263,6 @@ public class Manager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Dehors");
             for (int i = 0; i < StatUIList.Count; i++)
             {
                 StatUIList[i].SetActive(false);
